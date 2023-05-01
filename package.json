@@ -1,0 +1,29 @@
+{
+  "homepage": "https://EuJinnLucaShow.github.io/webpack-30-04-2023",
+  "name": "webpack-30-04-2023",
+  "version": "1.0.0",
+  "description": "Exploring WEBPACK. Setting up and working with Webpack.\r https://www.youtube.com/watch?v=DW28sSQxBO8",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "serve": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2"
+  }
+}
